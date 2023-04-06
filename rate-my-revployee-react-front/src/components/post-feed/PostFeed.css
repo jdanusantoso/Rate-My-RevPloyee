@@ -1,0 +1,90 @@
+/* .post-feed-container {
+    height: 2000px;
+} */
+.post-feed-following {
+    border-left: 2px solid black;
+    margin-top: 40px;
+}
+.followed-employee {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: silver;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.followed-employee:hover {
+    /* color: var(--color3); */
+    /* color: #ff7c00; */
+    background-color: var(--color3);
+}
+.post-card {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(240, 248, 255, 0.562);
+    box-shadow: 2px -12px 2px rgba(0, 0, 0, 0.349);
+    width: 75%;
+    /* height: 22vw; */
+    /* line-height: 1vw; */
+}
+.post-message-body {
+    border-top: 1px solid black;
+}
+
+.post-user-image {
+    width: 20%;
+}
+.sidebar-section {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    height: 100%;
+    position: relative;
+    width: 200px;
+    /* test sticky css */
+    /* position: absolute; */
+    
+}
+.add-button {
+    height: 50px;
+    font-size: 10px;
+}
+.add-button > button {
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: silver;
+    
+    /* border: none; */
+}
+.add-button>button:hover {
+    background-color: var(--color3);
+    transition: .5s ease-in;
+}
+.widget {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgba(132, 168, 199, 0.253);
+    padding: 5px;
+    box-shadow: 2px -2px 10px rgb(219, 217, 217);
+    height: 10vw;
+    width: 8vw;
+    text-align: center;
+}
+
+.make-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+}
+
+/* comment editing */
+.comment-box {
+    border: 0px solid black;
+}

@@ -1,0 +1,173 @@
+.tagline{
+    white-space: nowrap;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 95px;
+    margin: 15px;
+    margin-top: 3pt;
+    border-width: 3px;
+    width: fit-content;
+   
+}
+
+.tagline{
+    border: 2px solid black ;
+    border-radius: 90px;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.welcomegreeting{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 3%;
+}
+
+.TrainerRanking_Container{
+    /* background-color: lightcyan; */
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.userreview_container{
+    width: 50%;
+    float: left;
+}
+
+/* .tease-btn {
+    position: absolute;
+    top: 475px;
+    right: 10%;
+    z-index: 1;
+} */
+.leaderboard{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    vertical-align: middle;
+    margin-top: 2%;
+    margin-bottom: 40%;
+    margin: 2%;
+    padding: 10px;
+    width: 90;
+    background-color: aliceblue;
+
+}
+
+.userratings{
+    border: 3px solid black;
+    margin-top: 2%;
+    background-color: aliceblue;
+    
+}
+
+.scoreBoard{
+    white-space: nowrap;
+    text-align: right;
+}
+
+.imgfeed{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 20%;
+    margin-bottom: 16%;
+}
+
+.instructorinfo{
+    text-align: center;
+    margin-top: -29%;
+    position: relative;
+    bottom: 10%
+}
+
+.employeename{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.paragrapfeed{
+    text-align: center;
+}
+
+.likebutton{
+    text-align: center;
+    border: 2px solid black;
+    padding: 2%;
+    margin-right: 40%;
+    margin-top: -10%;
+  
+}
+.likebuttons{
+    text-align: center;
+    border: 2px solid black;
+    padding: 2%;
+    margin-left: 40%;
+    margin-top: -10%;
+}
+
+#myCarousel {
+    height: 500px;
+}
+
+/* blur background */
+.make-blur {
+    filter: blur(5px);
+}
+@keyframes backglow {
+    0% {
+      box-shadow: 0 0 20px #8346b6;
+    }
+    100% {
+      box-shadow: 0 0 40px #5c96b1;
+    }
+  }
+  
+.mission-statement-box{
+    background-color:darken(#0a1325, 4%); 
+    width: 18%;
+    height: 300px;
+    line-height: 1vw;
+    margin-left: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+    padding: 1px;
+    color: #020305;
+    background-color: #cfd2dd;
+    border-radius: 10px;
+    animation: textColor 10s ease infinite, glow 2s ease-in-out infinite alternate, rotate-glow 4s linear infinite, backglow 2s ease-in-out infinite alternate;
+    box-shadow: 0 0 0 10px #91cac7, 0 0 10px #7e0fff;
+    transform-origin: center;
+}
+.mission-statement-box:hover{
+    transform: scale(1.05);
+    transition: ease-in 0.25s;
+}
+
+.marketing {
+    /* background-color: white; */
+    height: 400px;
+}
+
+.special {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    z-index: -1;
+    position: relative;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+  }
