@@ -1,4 +1,4 @@
-# employee-rater
+# rate-my-revployee
 
 
 ABOUT RevRater is a social media application developed as our team's P3 Project. RevRater is designed to be a service where you can rate employees of revature anonymously, giving them a score between 1-10. You give a rational behind your rating when you make a post about a specific employee. To be absolutely clear, this service is a lot like RateYourProfessor, a similar social media application, but with a focus specifically on Revature.
