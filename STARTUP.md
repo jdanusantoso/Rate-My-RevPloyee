@@ -1,4 +1,4 @@
-# RevProject-3 - As Presented by TEAM A - REVRATER
+# Rate-My-RevPloyee
 This Git Repository features 3 main folders:
 - Python-SQL-Generator
 - Social-Media-React-Dev
@@ -12,7 +12,7 @@ To Utilize this Project, the following technologies will need to be installed lo
 - Git (Optional, but may make it easier to obtain this repo and stay up to date)
 Prior to starting the steps below, be sure to install the above technologies locally.
 
-STEP 0: Clone the Repo with it's contents from: https://github.com/mdsayeed133/RevProject-3.git
+STEP 0: Clone the Repo with it's contents from: (https://github.com/jdanusantoso/rate-my-revployee)
 
 STEP 1: Configure an AWS RDS Instance or Alternative DB Hoster:
 - Be sure to utilize PostgreSQL as the RDS vendor
